@@ -10,13 +10,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  background-color: #115CE0;
   font-family: 'helvetica neue', helvetica, sans-serif;
   overflow: hidden;
+  color:
 }
 
 a {
-  color: #fff;
+  color: #111;
   text-decoration: none;
 }
 
