@@ -49,7 +49,7 @@ class Slider {
     this.images = [
     'img/wavycrewneck.jpg',
     'img/mountains.jfif',
-    'https://s3-us-west-2.amazonaws.com/s.cdpn.io/58281/bg3.jpg'];
+    'img/mountains2.png'];
 
 
     this.data = {
