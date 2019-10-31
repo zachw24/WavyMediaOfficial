@@ -246,3 +246,7 @@ ul, li {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.fa{
+color: rgba(150, 203, 216);
+font-size: 100%;
+}
