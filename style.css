@@ -10,14 +10,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(221, 149, 81, 0.938);
-  font-family: 'helvetica neue', helvetica, sans-serif;
+  background-color: rgb(224, 153, 59);
+  font-family: 'Playfair Display', serif;
   overflow: hidden;
   color:
 }
 
 a {
-  color: rgb(240, 237, 89);
+  color: rgb(82, 80, 80);
   text-decoration: none;
 }
 
@@ -74,14 +74,14 @@ ul, li {
 .nav li {
   display: block;
   margin: 0 1rem;
-  padding: 0;
+  padding:0;
 }
 .nav a {
   position: relative;
   display: flex;
   align-items: center;
-  font-size: calc(0.5rem + 0.35vw);
-  font-family: 'helvetica neue', helvetica, sans-serif;
+  font-size: calc(0.7rem + 0.36vw);
+  font-family: 'Playfair Display', serif;
 }
 .nav a span {
   position: relative;
