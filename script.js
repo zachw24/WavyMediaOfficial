@@ -334,5 +334,3 @@ links.forEach(link => {
   });
 });
 
-// Init classes
-const slider = new Slider();
