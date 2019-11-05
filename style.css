@@ -15,7 +15,14 @@ body {
   overflow: hidden;
   color:
 }
-
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+  color:
+}
 a {
   color: rgb(82, 80, 80);
   text-decoration: none;

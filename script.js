@@ -47,9 +47,9 @@ class Slider {
     this.camera = null;
 
     this.images = [
-    'img/wavycrewneck.jpg',
-    'img/mountains.jfif',
-    'img/mountains2.png'];
+    'img/NightCity.jfif',
+    'img/NewYork.jfif',
+    'img/Faires.jfif'];
 
 
     this.data = {
