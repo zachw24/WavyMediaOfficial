@@ -13,7 +13,6 @@ body {
   background-color: rgb(224, 153, 59);
   font-family: 'Playfair Display', serif;
   overflow: hidden;
-  color:
 }
 .home {
   display: flex;
@@ -21,10 +20,9 @@ body {
   justify-content: center;
   font-family: 'Playfair Display', serif;
   overflow: hidden;
-  color:
 }
 a {
-  color: rgb(82, 80, 80);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 
@@ -257,4 +255,5 @@ ul, li {
 color: rgba(150, 203, 216);
 font-size: 100%;
 }
+
 
