@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(224, 153, 59);
+  
   font-family: 'Playfair Display', serif;
   overflow: hidden;
 }
