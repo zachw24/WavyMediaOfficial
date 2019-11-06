@@ -49,7 +49,7 @@ class Slider {
     this.images = [
     'img/NightCity.jfif',
     'img/NewYork.jfif',
-    'img/Faires.jfif'];
+    'img/Cali.jfif'];
 
 
     this.data = {
