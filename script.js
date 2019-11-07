@@ -47,9 +47,9 @@ class Slider {
     this.camera = null;
 
     this.images = [
-    'img/NightCity.jfif',
-    'img/NewYork.jfif',
-    'img/Cali.jfif'];
+    'img/1.jfif',
+    'img/2.jfif',
+    'img/mountains2.png'];
 
 
     this.data = {

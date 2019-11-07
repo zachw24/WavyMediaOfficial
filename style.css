@@ -10,7 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  background-color: rgb(238, 172, 205);
   font-family: 'Playfair Display', serif;
   overflow: hidden;
 }
@@ -256,6 +256,17 @@ color: rgba(150, 203, 216);
 font-size: 100%;
 }
 .warp{
-  color: rgb(73, 213, 238)
+  color: rgb(255, 255, 255)
 }
-
+.sentence{
+  color: rgb(193, 35, 224);
+}
+.my_number{
+  color: rgb(193, 35, 224);
+}
+.random{
+  color: rgb(193, 35, 224);
+}
+.random2{
+  color: rgb(193, 35, 224);
+}
