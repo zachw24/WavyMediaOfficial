@@ -47,11 +47,13 @@ a {
   padding: 0;
   margin: 0;
   z-index: 10;
+  text-decoration: none;
 }
-.logo img {
+.warp {
   display: block;
   height: 1rem;
   width: auto;
+  text-decoration: none;
 }
 
 ul, li {
@@ -87,9 +89,13 @@ ul, li {
   align-items: center;
   font-size: calc(0.7rem + 0.36vw);
   font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  
 }
 .nav a span {
   position: relative;
+  color: #fff;
+  
 }
 .nav a span:before {
   content: '';
@@ -112,6 +118,8 @@ ul, li {
           transform: scaleX(1);
   -webkit-transform-origin: left;
           transform-origin: left;
+          
+          
 }
 
 .vert-text {
@@ -257,7 +265,9 @@ font-size: 100%;
 }
 .warp{
   color: rgb(255, 255, 255)
+  
 }
+.warp :hover
 .sentence{
   color: rgb(193, 35, 224);
 }
