@@ -301,6 +301,9 @@ margin: auto;
 .snapchat{
   color: rgb(255, 255, 255);
 }
+.zach_email{
+  text-align: right;
+}
 body {
 	background-image: url("2.jfif");
         background-repeat:no-repeat;
