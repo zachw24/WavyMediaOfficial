@@ -336,3 +336,39 @@ links.forEach(link => {
 
 // Init classes
 const slider = new Slider();
+
+
+let submit1 = document.querySelector(".btn-btn-light");
+
+function smtp1(){
+let name = document.querySelector("name");
+let usermail = document.querySelector("mail");
+let phone = document.querySelector("phone");
+let message = document.querySelector("msg");
+let nodemailer = require('nodemailer');
+
+let transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'sirmonsjackson@gmail.com',
+    pass: 'Jackson132'
+  }
+});
+
+let mailOptions = {
+  from: 'zwwilson11@gmail.com',
+  to: 'sirmonsjackson@gmail.com',
+  subject: 'Sending Email using Node.js' + name,
+  text: name + " " + phone + " " + usermail + " " + message 
+};
+
+transporter.sendMail(mailOptions, function(error, info){
+  if (error) {
+    console.log(error);
+  } else {
+    console.log('Email sent: ' + info.response);
+  }
+});
+}
+
+submit1.addEventListener("click", smtp1);
