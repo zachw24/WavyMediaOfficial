@@ -14,6 +14,11 @@ body {
   font-family: 'Playfair Display', serif;
   overflow: hidden;
 }
+body {
+	background-image: url("img/2.jfif");
+        background-repeat:no-repeat;
+       background-size:cover;
+} 
 .home {
   display: flex;
   align-items: center;
@@ -304,11 +309,7 @@ margin: auto;
 .zach_email{
   text-align: right;
 }
-body {
-	background-image: url("2.jfif");
-        background-repeat:no-repeat;
-       background-size:cover;
-} 
+
 .card{
   width: 30x;
 }
