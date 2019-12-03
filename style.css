@@ -285,9 +285,9 @@ font-size: 100%;
   color: rgb(255, 255, 255);
 }
 .carousel-inner {
-padding-top: 7%;
+padding-top: 6%;
 height: 80%;
-width: 65%;
+width: 80%;
 margin: auto;
 }
 #footer{
@@ -309,19 +309,6 @@ margin: auto;
 .zach_email{
   text-align: right;
 }
-
-.card{
-  width: 30x;
-}
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
-}
-
 .btn-btn-light{
   float: right;
   margin-top: 20px;
