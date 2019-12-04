@@ -17,6 +17,16 @@ body {
         background-repeat:no-repeat;
        background-size:cover;
 } 
+<<<<<<< HEAD
+=======
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+}
+>>>>>>> feace3bef83b7cc523796bbb6552528980c88826
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
