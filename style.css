@@ -17,16 +17,6 @@ body {
         background-repeat:no-repeat;
        background-size:cover;
 } 
-<<<<<<< HEAD
-=======
-.home {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Playfair Display', serif;
-  overflow: hidden;
-}
->>>>>>> feace3bef83b7cc523796bbb6552528980c88826
 a {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -62,13 +52,11 @@ a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-
 ul, li {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .nav {
   position: absolute;
   top: 2rem;
@@ -143,6 +131,10 @@ ul, li {
   -webkit-transform-origin: bottom left;
           transform-origin: bottom left;
   font-size: 1.35rem;
+}
+h1 {
+color: white;
+font-size: 90%;
 }
 .cart-total {
   display: block;
