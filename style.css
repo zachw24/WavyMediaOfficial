@@ -134,8 +134,18 @@ ul, li {
 }
 h1 {
 color: white;
-font-size: 90%;
+font-size: 120%;
 }
+p1 {
+  color: white;
+  font-size: 100%;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 .cart-total {
   display: block;
   height: 2rem;
