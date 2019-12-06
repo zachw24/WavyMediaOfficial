@@ -311,6 +311,9 @@ margin: auto;
   float: right;
   margin-top: 20px;
 }
+#dropdown{
+  color: blue;
+}
 /*media queries
 @media screen (min-width: 750px){
   min-height; 1334px;*/
