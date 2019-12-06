@@ -315,6 +315,15 @@ margin: auto;
   background-color: burlywood;
   color: blue;
 }
+#dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #2ff03f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
 /*media queries
 @media screen (min-width: 750px){
   min-height; 1334px;*/
