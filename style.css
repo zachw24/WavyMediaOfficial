@@ -134,12 +134,19 @@ ul, li {
 }
 h1 {
 color: white;
-font-size: 120%;
+font-size: 200%;
+text-align: center;
 }
-p1 {
+h2 {
   color: white;
-  font-size: 100%;
+  font-size: 200%;
+  text-align: center;
   }
+p {
+  color: white;
+  font-size: 110%;
+  }
+  #locator { position: absolute; visibility: visible; right: 38px; bottom: 255px; height: 200px; width: 595px; z-index: 90; }
   .center {
     display: block;
     margin-left: auto;
