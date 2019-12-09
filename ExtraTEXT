@@ -19,3 +19,12 @@
       <td><input type="text" size="30"></td>
     </tr>
   </table>
+
+    <select>
+          <option value="Pages">Home</option>
+          <option value="Apparel">Apparel</option>
+          <option value="Media">Media</option>
+          <option value="Our Vision">Our Vision</option>
+          <option value="Prayer Request">Prayer Request</option>
+          <option value="Contact Us">Contact Us</option>
+        </select>
