@@ -146,7 +146,7 @@ p {
   color: white;
   font-size: 110%;
   }
-  #locator { position: absolute; visibility: visible; right: 38px; bottom: 255px; height: 200px; width: 595px; z-index: 90; }
+  #locator { position: absolute; visibility: visible; right: 38px; bottom: 305px; height: 200px; width: 599px; z-index: 90; }
   .center {
     display: block;
     margin-left: auto;
@@ -156,7 +156,6 @@ p {
   * {
     box-sizing: border-box;
   }
-  
   .column {
     float: left;
     width: 33.33%;
