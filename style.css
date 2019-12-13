@@ -142,11 +142,18 @@ h2 {
   font-size: 200%;
   text-align: center;
   }
+h3 {
+  color: white;
+  font-size: 300%;
+  position: absolute; visibility: visible; left: 50px; top: 70px; height: 200px; width: 500px; z-index: 90; padding-top: 40px; }
+  }
+  }
 p {
   color: white;
   font-size: 110%;
   }
-  #locator { position: absolute; visibility: visible; right: 38px; bottom: 305px; height: 200px; width: 599px; z-index: 90; }
+  #locator { position: absolute; visibility: visible; right: 25px; bottom: 305px; height: 200px; width: 599px; z-index: 90; }
+  #locate { position: absolute; visibility: visible; left: 60px; top: 70px; height: 600px; width: 1800px; z-index: 90; padding-top: 100px; }
   .center {
     display: block;
     margin-left: auto;
@@ -286,7 +293,19 @@ p {
 color: rgb(255, 255, 255);
 font-size: 100%;
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*footer information*/
 .sentence{
   color: rgb(255, 255, 255);
